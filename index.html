@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smoothie Machine</title>
+  
+</head>
+<body>
+  <h1>Smoothie Machine</h1>
+
+  <form id="smoothieForm">
+    <label for="size">Choose size:</label>
+    <select id="size" name="size" required>
+      <option value="">--Select--</option>
+      <option value="Small">Small</option>
+      <option value="Medium">Medium</option>
+      <option value="Large">Large</option>
+    </select>
+
+    <fieldset>
+      <legend>Ingredients</legend>
+      <label><input type="checkbox" name="ingredients" value="Banana" /> Banana</label>
+      <label><input type="checkbox" name="ingredients" value="Strawberry" /> Strawberry</label>
+      <label><input type="checkbox" name="ingredients" value="Mango" /> Mango</label>
+      <label><input type="checkbox" name="ingredients" value="Spinach" /> Spinach</label>
+    </fieldset>
+
+    <label for="sweetness">Sweetness Level:</label>
+    <input type="range" id="sweetness" name="sweetness" min="0" max="10" value="5" />
+
+    <fieldset>
+      <legend>Extras</legend>
+      <label><input type="checkbox" name="extras" value="Protein Powder" /> Protein Powder</label>
+      <label><input type="checkbox" name="extras" value="Chia Seeds" /> Chia Seeds</label>
+      <label><input type="checkbox" name="extras" value="Oat Milk" /> Oat Milk</label>
+    </fieldset>
+
+    <button type="submit">Order Smoothie</button>
+  </form>
+
+  
+</body>
+</html>
