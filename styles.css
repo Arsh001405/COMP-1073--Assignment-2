@@ -1,0 +1,19 @@
+/* style.css */
+
+/* General page style */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  color: #333;
+  text-align: center;
+  padding: 40px;
+  margin: 0;
+}
+
+/* Heading */
+h1 {
+  font-size: 2.5em;
+  color: #ff5a2c;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
